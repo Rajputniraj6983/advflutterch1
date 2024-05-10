@@ -29,3 +29,16 @@ samples, guidance on mobile development, and a full API reference.
   </div>
 </p>
 
+<h1 align="center">Advance Flutter Chapter 1</h1>
+
+<h3 align="center">📱Counter App 📱</h3>
+<p align="center">
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/bb4ebda2-de3e-417e-b847-2e862b8ffb6b' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/13f9306b-70f0-4595-b3f8-4ae36f9a6ae0' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Rajputniraj6983/advflutterch1/tree/master/lib/theme/views">👉 📚 Go to dart file 📚 👈</a>
+    Adv_Flutter_Ch1
+
+ </div>
+</p>
