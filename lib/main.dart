@@ -1,31 +1,36 @@
+import 'package:advflutterch1/theme/views/components/counterscreen.dart';
+import 'package:advflutterch1/theme/views/components/dark_theme.dart';
+import 'package:advflutterch1/theme/views/components/provider_dart.dart';
+import 'package:advflutterch1/theme/views/themescreen.dart';
 import 'package:flutter/material.dart';
-class MyApp extends StatefulWidget {
+import 'package:provider/provider.dart';
+
+
+
+void main() {
+  runApp(const MyApp());
+}
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
-  @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-       home: Scaffold(
-         body: Container(
-           height: 500,width: 400,
-           child: Card(
-             child: Column(
-               children: [
-                 themetext(),
-                 light-Theme()
-               ],
-             ),
-           ),
-         ),
-       ),
+    return ChangeNotifierProvider(
+      create: (context) => CounterProvider(),
+      builder: (context,child) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+          theme: ThemeClass.lightTheme,
+          darkTheme: ThemeClass.darkTheme,
+          themeMode: ThemeMode.system,
+           initialRoute: '/',
+          routes: {
+           '/' : (context) => MainScreen(),
+            // 'ThemeClass' : (context) => ThemeClass()
+          },
+
+      ),
     );
   }
 }
+
+bool press = false;
