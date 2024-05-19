@@ -14,7 +14,31 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-<p>
-  <img src = "https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/705c010d-cd97-43dc-a5b5-aa7df57988c6" width=350>
-  <img src = "https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/ad84feb5-1f76-492b-803e-b648bd39ac9d" width=350>
+<h1 align="center">Advance Flutter Chapter 1</h1>
+
+<h3 align="center">📱 Switch Dark Theme to Light Theme 📱</h3>
+<p align="center">
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/38d8ef2d-9ec4-49c5-a093-3eaa4fff32a9' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/158e0b90-35ec-401e-90d2-3a6abd18563a' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Rajputniraj6983/advflutterch1/tree/master/lib">👉 📚 Go to dart file 📚 👈</a>
+    Adv_Flutter_Ch1
+
+<video src="https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/ce031093-fe28-4b98-a714-5a7d13972479" width="400">
+  </div>
+</p>
+
+<h1 align="center">Advance Flutter Chapter 1</h1>
+
+<h3 align="center">📱Counter App 📱</h3>
+<p align="center">
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/bb4ebda2-de3e-417e-b847-2e862b8ffb6b' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Rajputniraj6983/advflutterch1/assets/143181391/13f9306b-70f0-4595-b3f8-4ae36f9a6ae0' width = 300>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Rajputniraj6983/advflutterch1/tree/master/lib/theme/views">👉 📚 Go to dart file 📚 👈</a>
+    Adv_Flutter_Ch1
+
+ </div>
 </p>
