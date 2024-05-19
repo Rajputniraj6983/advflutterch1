@@ -1,3 +1,4 @@
+import 'package:advflutterch1/task%201_6/views/Screen/contact%20page.dart';
 import 'package:advflutterch1/theme/views/components/counterscreen.dart';
 import 'package:advflutterch1/theme/views/components/dark_theme.dart';
 import 'package:advflutterch1/theme/views/components/provider_dart.dart';
@@ -19,12 +20,12 @@ class MyApp extends StatelessWidget {
       create: (context) => CounterProvider(),
       builder: (context,child) => MaterialApp(
         debugShowCheckedModeBanner: false,
-          theme: ThemeClass.lightTheme,
-          darkTheme: ThemeClass.darkTheme,
-          themeMode: ThemeMode.system,
-           initialRoute: '/',
+          // theme: ThemeClass.lightTheme,
+          // darkTheme: ThemeClass.darkTheme,
+          // themeMode: ThemeMode.system,
+           initialRoute: '',
           routes: {
-           '/' : (context) => MainScreen(),
+           '/' : (context) => Contactpage(),
             // 'ThemeClass' : (context) => ThemeClass()
           },
 
