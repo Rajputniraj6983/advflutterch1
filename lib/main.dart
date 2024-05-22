@@ -6,6 +6,9 @@ import 'package:advflutterch1/theme/views/themescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'task 1-2/view/steeper horizontal.dart';
+import 'task 1-2/view/steeper vertical.dart';
+
 
 
 void main() {
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
           // themeMode: ThemeMode.system,
            initialRoute: '',
           routes: {
-           '/' : (context) => Contactpage(),
+           '/' : (context) => steeperHorizontal(),
             // 'ThemeClass' : (context) => ThemeClass()
           },
 

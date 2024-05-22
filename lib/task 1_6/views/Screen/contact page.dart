@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-
+import 'package:url_launcher/url_launcher.dart' as launcher;
 class Contactpage extends StatefulWidget {
   const Contactpage({super.key});
 
@@ -9,7 +9,7 @@ class Contactpage extends StatefulWidget {
 }
 
 class _ContactpageState extends State<Contactpage> {
-  get launcher => null;
+
 
   @override
   Widget build(BuildContext context) {
@@ -35,8 +35,8 @@ class _ContactpageState extends State<Contactpage> {
             SizedBox(height: 20),
             InkWell(
             onTap: () {
-              Uri  uri=Uri.parse("tel: +91 8733833348");
-              launcher.launcherurl(uri);
+              Uri  uri =Uri.parse("tel: +91 8733833348");
+              launcher.launchUrl(uri);
             },
               child: Container(
                 height: 60,
@@ -66,7 +66,8 @@ class _ContactpageState extends State<Contactpage> {
             ),
             SizedBox(height: 20),
             InkWell(onTap: () {
-
+              Uri  uri=Uri.parse("mailto: aayushpatel01411@gmail.com");
+              launcher.launchUrl(uri);
 
             },
               child: Container(
@@ -95,7 +96,7 @@ class _ContactpageState extends State<Contactpage> {
                 ),
               ),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 50),
             Container(
               height: 350,
               width: 250,
@@ -113,7 +114,8 @@ class _ContactpageState extends State<Contactpage> {
                   ),Divider(color: Colors.blue,indent: 0,endIndent: 0),
                   SizedBox(height: 17),
                   InkWell(onTap: () {
-
+                    Uri  uri=Uri.parse("https://instagram.com");
+                    launcher.launchUrl(uri);
 
                   },
                     child: Container(
@@ -140,7 +142,8 @@ class _ContactpageState extends State<Contactpage> {
                   ),
                   SizedBox(height: 17),
                   InkWell(onTap: () {
-
+                    Uri  uri=Uri.parse("https://linkedin.com");
+                    launcher.launchUrl(uri);
 
                   },
                     child: Container(
@@ -167,7 +170,8 @@ class _ContactpageState extends State<Contactpage> {
                   ),
                   SizedBox(height: 17),
                   InkWell(onTap: () {
-
+                    Uri  uri=Uri.parse("https://github.com");
+                    launcher.launchUrl(uri);
 
                   },
                     child: Container(

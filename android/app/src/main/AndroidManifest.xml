@@ -57,6 +57,6 @@
             <intent>
                 <action android:name="android.support.customtabs.action.CustomTabsService" />
             </intent>
-        </queries>
+        </queries><!-- Provide required visibility configuration for API level 30 and above -->
 </manifest>
 
